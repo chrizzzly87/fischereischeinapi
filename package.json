@@ -1,0 +1,22 @@
+{
+  "name": "WelcherTagIstHeute",
+  "version": "1.0.0",
+  "description": "API to get the current information on the special day",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon index.js"
+  },
+  "keywords": [
+    "welcher tag ist heute nadine"
+  ],
+  "author": "Chris",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.5.15",
+    "node-fetch": "^2.6.0",
+    "node-html-parser": "^1.2.0",
+    "nodemon": "^1.19.1"
+  }
+}
